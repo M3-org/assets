@@ -1,0 +1,161 @@
+{
+    "objects": [
+        {
+            "type": "application/spawnpoint",
+            "content": {
+                "position": [
+                    52.72,
+                    15.47,
+                    -15.09
+                ]
+            }
+        },
+        {
+            "type": "application/light",
+            "content": {
+                "lightType": "ambient",
+                "args": [
+                    [
+                        255,
+                        255,
+                        255
+                    ],
+                    2
+                ]
+            }
+        },
+        {
+            "type": "application/light",
+            "content": {
+                "lightType": "directional",
+                "args": [
+                    [
+                        255,
+                        255,
+                        255
+                    ],
+                    0.5
+                ],
+                "position": [
+                    22,
+                    177,
+                    360
+                ],
+                "quaternion": [
+                    -0.734,
+                    0,
+                    0,
+                    0.679
+                ],
+                "shadow": [
+                    50,
+                    4096,
+                    0.1,
+                    1000,
+                    0,
+                    0.2
+                ]
+            }
+        },
+        {
+            "type": "application/wind",
+            "content": {
+                "windType": "directional",
+                "direction": [
+                    0.5,
+                    0,
+                    0.2
+                ],
+                "windForce": 0.5,
+                "noiseScale": 1,
+                "windFrequency": 1
+            }
+        },
+        {
+            "type": "application/rendersettings",
+            "content": {
+                "hdr": {
+                    "adaptive": true,
+                    "resolution": 256,
+                    "adaptionRate": 100,
+                    "maxLuminance": 10,
+                    "minLuminance": 0,
+                    "middleGrey": 3
+                },
+                "ssao": {
+                    "kernelSize": 1024,
+                    "kernelRadius": 16,
+                    "minDistance": 0.001,
+                    "maxDistance": 2
+                },
+                "bloom": {
+                    "strength": 0.2,
+                    "radius": 0.2,
+                    "threshold": 0.8
+                },
+                "dof": {
+                    "focus": 2,
+                    "aperture": 0.0004,
+                    "maxblur": 0.003
+                }
+            }
+        },
+        {
+            "position": [
+                0,
+                0,
+                0
+            ],
+            "quaternion": [
+                0,
+                0,
+                0,
+                1
+            ],
+            "start_url": "https://webaverse.github.io/night-skybox/"
+        },
+        {
+            "position": [
+                60.082,
+                1.486,
+                18
+            ],
+            "quaternion": [
+                0,
+                0,
+                0,
+                1
+            ],
+            "scale": [
+                1,
+                1,
+                1
+            ],
+            "physics": true,
+            "start_url": "https://ipfs.webaverse.com/QmNSbSh56zrgPF1vJQ9AW6mMsDkCy47SoWgXiii8UnwuzP/m3-hq.glb",
+            "dynamic": false
+        },
+        {
+            "position": [
+                0,
+                -0.9,
+                0
+            ],
+            "quaternion": [
+                0,
+                0,
+                0,
+                1
+            ],
+            "start_url": "https://pigloo.github.io/weba-scenes/boat/water/index.js"
+        },
+        {
+            "position": [
+                0,
+                0,
+                0
+            ],
+            "start_url": "https://madjin.github.io/weba-modules/audio/index.js"
+        }
+    ]
+}
